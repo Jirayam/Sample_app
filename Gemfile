@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
 
-	gem 'rspec', '2.4.0'
+	gem 'rspec-rails', '~> 3.0'
 	gem 'webrat', '0.7.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
