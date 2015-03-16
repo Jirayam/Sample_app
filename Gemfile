@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
 
 	gem 'rspec-rails', '~> 3.0'
+	gem 'annotate', '2.4.0'
 	gem 'webrat', '0.7.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -44,5 +45,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  #nécessaire pour le tuto car depuis la version 4 de rails le attr_accessible a été supprimé
+  gem 'protected_attributes'
 end
 
